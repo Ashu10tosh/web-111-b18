@@ -64,8 +64,30 @@
     height: 397px;
     margin-left: 50px;
 }
-#mid>div>h1,h2{
+#mid>div>h1,h2,h3{
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: 2px;
     writing-mode: vertical-rl;
 }
+#midlow{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 60px;
+    margin-left: 1px;
+    margin-right: 1px;     
+}
+#midlow>div{
+    display: flex;
+    border: 0.5px solid black;
+    height: 400px;
+}
+#signin{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+#signin{
+    border: 1px solid black;
+}
+
