@@ -88,6 +88,42 @@
     margin-top: 50px;
 }
 #signin{
+    background-color: rgb(211, 209, 209);
     border: 1px solid black;
 }
+#two{
+    display: flex;
+}
+#two>div{
+    width: 33%;
+    hieght: 400px;
+    
+    text-align: center;
 
+}
+#three{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#last{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    border: 1px solid black;
+    
+}
+#last>div{
+    width: 16%;
+}
+#up{
+    width: 100%;
+    height: 400px;
+    display: flex;    
+}
+#up>h1{
+
+}
+#up>div>div{
+    width: 12%;
+    
+}
